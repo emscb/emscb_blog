@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
+
+.container {
+	width: 45vw;
+	margin: 3rem auto;
+	display: flex;
+  align-items: center;
+  
+  @media screen and (max-width: 768px) {
+    width: 85vw;
+    margin: 1rem auto;
+  }
+}

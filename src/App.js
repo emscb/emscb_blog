@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.scss";
+import { Route } from "react-router";
+import About from "./components/About";
+import Footer from "./components/Footer";
+import Home from "./components/Home";
+import Menu from "./components/Menu";
+import Resume from "./components/Resume";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div>
+			<div
+				style={{
+					display: "flex",
+					minHeight: "100vh",
+					flexDirection: "column",
+					backgroundColor: "#E9DCF0",
+					fontFamily: "Nunito Sans, sans-serif",
+				}}
+			>
+				<div style={{ flex: "1" }}>
+					<Menu />
+					<div className="container">
+						<Route path="/" component={Home} exact />
+						<Route path="/about" component={About} />
+						<Route path="/cv" component={Resume} />
+					</div>
+				</div>
+				<Footer />
+			</div>
+		</div>
+	);
 }
 
 export default App;
