@@ -23,7 +23,7 @@ function App() {
 					minHeight: "100vh",
 					flexDirection: "column",
 					backgroundColor: "#E9DCF0",
-					fontFamily: "Nunito Sans, sans-serif",
+					fontFamily: "Nunito Sans, Noto Sans KR, sans-serif",
 				}}
 			>
 				<div style={{ flex: "1" }}>
