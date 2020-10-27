@@ -13,7 +13,7 @@ const About = () => {
 				새로운 것을 배우는 데 거부감이 없습니다.
 			</p>
 			<ul>
-				<li>Contact: khmzxc@naver.com</li>
+				<li>Contact: khmzxc6622@gmail.com</li>
 			</ul>
 		</div>
 	);
