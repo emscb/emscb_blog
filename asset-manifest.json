@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/emscb_blog/static/css/main.68f1d540.chunk.css",
-    "main.js": "/emscb_blog/static/js/main.9105c43d.chunk.js",
-    "main.js.map": "/emscb_blog/static/js/main.9105c43d.chunk.js.map",
+    "main.css": "/emscb_blog/static/css/main.ece704c5.chunk.css",
+    "main.js": "/emscb_blog/static/js/main.67b440da.chunk.js",
+    "main.js.map": "/emscb_blog/static/js/main.67b440da.chunk.js.map",
     "runtime-main.js": "/emscb_blog/static/js/runtime-main.a9883cdf.js",
     "runtime-main.js.map": "/emscb_blog/static/js/runtime-main.a9883cdf.js.map",
     "static/js/2.5b500f25.chunk.js": "/emscb_blog/static/js/2.5b500f25.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.95203b46.chunk.js": "/emscb_blog/static/js/3.95203b46.chunk.js",
     "static/js/3.95203b46.chunk.js.map": "/emscb_blog/static/js/3.95203b46.chunk.js.map",
     "index.html": "/emscb_blog/index.html",
-    "static/css/main.68f1d540.chunk.css.map": "/emscb_blog/static/css/main.68f1d540.chunk.css.map",
+    "static/css/main.ece704c5.chunk.css.map": "/emscb_blog/static/css/main.ece704c5.chunk.css.map",
     "static/js/2.5b500f25.chunk.js.LICENSE.txt": "/emscb_blog/static/js/2.5b500f25.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a9883cdf.js",
     "static/js/2.5b500f25.chunk.js",
-    "static/css/main.68f1d540.chunk.css",
-    "static/js/main.9105c43d.chunk.js"
+    "static/css/main.ece704c5.chunk.css",
+    "static/js/main.67b440da.chunk.js"
   ]
 }
