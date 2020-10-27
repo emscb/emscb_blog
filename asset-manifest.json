@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/emscb_blog/static/css/main.68f1d540.chunk.css",
+    "main.js": "/emscb_blog/static/js/main.f78b304f.chunk.js",
+    "main.js.map": "/emscb_blog/static/js/main.f78b304f.chunk.js.map",
+    "runtime-main.js": "/emscb_blog/static/js/runtime-main.a9883cdf.js",
+    "runtime-main.js.map": "/emscb_blog/static/js/runtime-main.a9883cdf.js.map",
+    "static/js/2.5b500f25.chunk.js": "/emscb_blog/static/js/2.5b500f25.chunk.js",
+    "static/js/2.5b500f25.chunk.js.map": "/emscb_blog/static/js/2.5b500f25.chunk.js.map",
+    "static/js/3.95203b46.chunk.js": "/emscb_blog/static/js/3.95203b46.chunk.js",
+    "static/js/3.95203b46.chunk.js.map": "/emscb_blog/static/js/3.95203b46.chunk.js.map",
+    "index.html": "/emscb_blog/index.html",
+    "static/css/main.68f1d540.chunk.css.map": "/emscb_blog/static/css/main.68f1d540.chunk.css.map",
+    "static/js/2.5b500f25.chunk.js.LICENSE.txt": "/emscb_blog/static/js/2.5b500f25.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a9883cdf.js",
+    "static/js/2.5b500f25.chunk.js",
+    "static/css/main.68f1d540.chunk.css",
+    "static/js/main.f78b304f.chunk.js"
+  ]
+}
