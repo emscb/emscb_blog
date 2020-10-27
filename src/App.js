@@ -5,15 +5,12 @@ import Footer from "./components/Footer";
 import Home from "./components/Home";
 import Menu from "./components/Menu";
 import Resume from "./components/Resume";
-import { Helmet } from "react-helmet";
-import Project from "./components/Project";
+import Projects from "./components/Projects";
+import Project from "./components/projects/Project";
 
 function App() {
 	return (
 		<div>
-			<Helmet>
-				
-			</Helmet>
 			<div
 				style={{
 					display: "flex",
@@ -26,10 +23,11 @@ function App() {
 				<div style={{ flex: "1" }}>
 					<Menu />
 					<div className="container">
-						<Route path="/" component={Home} exact />
-						<Route path="/about" component={About} exact />
-						<Route path="/cv" component={Resume} exact />
-						<Route path="/project" component={Project} />
+						<Route path="/" exact component={Home}/>
+						<Route path="/about" exact component={About}/>
+						<Route path="/cv" exact component={Resume} />
+						<Route path="/project" exact component={Projects}/>
+						<Route path="/project/:projectName" component={Project}/>
 					</div>
 				</div>
 				<Footer />
