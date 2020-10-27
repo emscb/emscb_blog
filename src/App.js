@@ -12,10 +12,7 @@ function App() {
 	return (
 		<div>
 			<Helmet>
-				<meta property="description" content="Blog" />
-				<meta property="og:site_name" content="Blog" />
-				<meta property="og:title" content="Blog" />
-				<meta property="og:description" content="emscb.github.io/emscb_blog" />
+				
 			</Helmet>
 			<div
 				style={{
