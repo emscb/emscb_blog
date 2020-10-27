@@ -5,6 +5,7 @@ import { NavLink } from "react-router-dom";
 const menus = [
 	{ name: "about", text: "About" },
 	{ name: "cv", text: "CV" },
+	{ name: "project", text: "Project" },
 ];
 
 const MenuBlock = styled.div`
@@ -34,10 +35,10 @@ const MenuItem = styled(NavLink)`
 
 	&.active {
 		font-weight: 600;
-		border-bottom: 2px solid #A2844D;
-		color: #A2844D;
+		border-bottom: 2px solid #a2844d;
+		color: #a2844d;
 		&:hover {
-			color: #B89B68;
+			color: #b89b68;
 		}
 	}
 

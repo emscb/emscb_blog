@@ -6,6 +6,7 @@ import Home from "./components/Home";
 import Menu from "./components/Menu";
 import Resume from "./components/Resume";
 import { Helmet } from "react-helmet";
+import Project from "./components/Project";
 
 function App() {
 	return (
@@ -29,8 +30,9 @@ function App() {
 					<Menu />
 					<div className="container">
 						<Route path="/" component={Home} exact />
-						<Route path="/about" component={About} />
-						<Route path="/cv" component={Resume} />
+						<Route path="/about" component={About} exact />
+						<Route path="/cv" component={Resume} exact />
+						<Route path="/project" component={Project} />
 					</div>
 				</div>
 				<Footer />
