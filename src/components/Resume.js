@@ -4,8 +4,10 @@ import styled from "styled-components";
 import "../styles/Resume.scss";
 
 const StyledA = styled.a`
-	text-decoration: none;
 	color: inherit;
+	&:hover {
+		color: #495057;
+	}
 `;
 
 const Resume = () => {
