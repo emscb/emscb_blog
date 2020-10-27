@@ -30,6 +30,6 @@ jobs:
         env:
           PERSONAL_TOKEN: ${{secrets.GH_PAT}}
           PUBLISH_BRANCH: gh-pages
-          PUBLISH_DIR: ./public
+          PUBLISH_DIR: ./build
           SCRIPT_MODE: true
-          commit_message: ${{ github.event.head_commit.message }}
+          full_commit_message: ${{ github.event.head_commit.message }}
