@@ -3,7 +3,7 @@ import React from 'react';
 const Sleeptionary = () => {
 	return (
 		<div>
-			-쿨-
+			준비 중입니다. Ready for content.
 		</div>
 	);
 };
