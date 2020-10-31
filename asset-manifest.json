@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/emscb_blog/static/css/main.bc6bbc35.chunk.css",
-    "main.js": "/emscb_blog/static/js/main.a0144c59.chunk.js",
-    "main.js.map": "/emscb_blog/static/js/main.a0144c59.chunk.js.map",
+    "main.js": "/emscb_blog/static/js/main.edee9de2.chunk.js",
+    "main.js.map": "/emscb_blog/static/js/main.edee9de2.chunk.js.map",
     "runtime-main.js": "/emscb_blog/static/js/runtime-main.a9883cdf.js",
     "runtime-main.js.map": "/emscb_blog/static/js/runtime-main.a9883cdf.js.map",
     "static/js/2.febd172d.chunk.js": "/emscb_blog/static/js/2.febd172d.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.a9883cdf.js",
     "static/js/2.febd172d.chunk.js",
     "static/css/main.bc6bbc35.chunk.css",
-    "static/js/main.a0144c59.chunk.js"
+    "static/js/main.edee9de2.chunk.js"
   ]
 }
