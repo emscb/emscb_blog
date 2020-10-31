@@ -20,7 +20,7 @@ const Resume = () => {
 
 			<h2>기술 스택 Tech Stack </h2>
 
-			<h3>Programming language</h3>
+			<h3>Programming Language</h3>
 			<h4>JavaScript</h4>
 			<p>
 				ES6 문법을 이해하고 활용할 수 있습니다. Axios를 이용해 API를 사용할 수
@@ -126,33 +126,53 @@ const Resume = () => {
 			<h2>경력 Work Experience</h2>
 			<p>경력 없음</p>
 
-			<h2>커뮤니티 활동 Community activity</h2>
+			<h2>커뮤니티 활동 Community Activity</h2>
 
 			<h3>파이콘 한국 준비위원회 PyCon Korea Organizing Team</h3>
 			<h5>2018.11 - 현재</h5>
 			<p>
-				파이콘 한국 2019 준비 과정부터 참여하였습니다. 컨퍼런스뿐만 아니라 연말
-				세미나, 튜토리얼, 스프린트 등 커뮤니티 행사 준비에 참여하였습니다.
-				파이콘 한국 2019에서는 후원사 업무와 전반적인 메일, 재정 지원을 도맡아
-				하였고, 홈페이지에는 오탈자 수정, 간단한 디자인 수정으로 기여하였습니다.
-			</p>
-			<p>
-				파이콘 한국 2020에서는 Django 기반의 홈페이지 템플릿 작업과 백엔드
-				작업을 하였습니다.
+				개발자를 포함한 여러 분야의 사람들과 만나고 어울리게 되었습니다. 다양한
+				사람들과 서로 맞춰가며 협업하는 것을 배웠습니다.
 			</p>
 			<ul>
-				<li>
-					홈페이지:{" "}
-					<StyledA href="https://www.pycon.kr/2020/" target="_blank">
-						pycon.kr/2020
-					</StyledA>
-				</li>
-				<li>
-					GitHub repo:{" "}
-					<StyledA href="https://github.com/pythonkr/pyconkr" target="_blank">
-						github.com/pythonkr/pyconkr
-					</StyledA>
-				</li>
+				<li>파이콘 한국 2019</li>
+				<ul>
+					<li>재정 지원</li>
+					<ul>
+						<li>
+							시트 자동화로 지원액 계산 프로세스를 전해보다 개선하였습니다.
+						</li>
+					</ul>
+					<li>후원사 관리</li>
+					<li>홈페이지 개발 참여</li>
+					<ul>
+						<li>간단한 디자인 수정과 오탈자 수정으로 기여하였습니다.</li>
+					</ul>
+				</ul>
+				<li>파이콘 한국 2020</li>
+				<ul>
+					<li>홈페이지</li>
+					<ul>
+						<li>
+							Django 기반의 홈페이지 템플릿 작업과 백엔드 작업을 리드하였습니다.
+						</li>
+						<li>
+							홈페이지:{" "}
+							<StyledA href="https://www.pycon.kr/2020/" target="_blank">
+								pycon.kr/2020
+							</StyledA>
+						</li>
+						<li>
+							GitHub repo:{" "}
+							<StyledA
+								href="https://github.com/pythonkr/pyconkr"
+								target="_blank"
+							>
+								github.com/pythonkr/pyconkr
+							</StyledA>
+						</li>
+					</ul>
+				</ul>
 			</ul>
 
 			<h2>학력 Education</h2>
