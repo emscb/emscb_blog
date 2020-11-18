@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 const menus = [
 	{ name: "about", text: "About" },
 	{ name: "cv", text: "CV" },
-	{ name: "project", text: "Project" },
+	// { name: "project", text: "Project" },
 ];
 
 const MenuBlock = styled.div`
