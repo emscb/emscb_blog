@@ -18,11 +18,11 @@ const Resume = () => {
 			</Helmet>
 			<h1>CV</h1>
 
-			<h2>기술 스택 Tech Stack </h2>
+			<h2>기술 스택 Tech Stack</h2>
 
 			<h4>React</h4>
 			<p>
-				Component 라이프 사이클에 따라 적절한 메서드를 사용합니다. Fuctional
+				Component 라이프 사이클에 따라 적절한 메서드를 사용합니다. Function
 				component, class component를 모두 만들 수 있습니다. Redux를 이용하여
 				상태 관리를 할 수 있습니다.
 			</p>
@@ -86,7 +86,7 @@ const Resume = () => {
 				만들었습니다. 누적 데이터는 Python으로 sqlite3 DB에 쌓고 있습니다. 그 중
 				홈페이지에 필요한 데이터는 MongoDB에 동기화됩니다.
 			</p>
-			<p>GitHub pages로 배포하고 있으나, CORS 문제가 있어 해결하고 있습니다.</p>
+			<p>GitHub pages로 배포하고 있으나, CORS 문제가 있어 EC2를 이용해 해결 중입니다.</p>
 			{/* 해결을 하고 빼버리자 */}
 			<ul>
 				<li>
