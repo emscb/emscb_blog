@@ -1,9 +1,9 @@
 import "./App.scss";
-import { Route } from "react-router";
+import { Route, Redirect } from "react-router";
 import About from "./components/About";
 import Footer from "./components/Footer";
 import Menu from "./components/Menu";
-import Resume from "./components/Resume";
+import CV from "./components/CV";
 
 function App() {
 	return (
@@ -20,8 +20,9 @@ function App() {
 				<div style={{ flex: "1" }}>
 					<Menu />
 					<div className="container">
-						<Route path="/cv" exact component={Resume} />
-						<Route path="*" exact component={About} />
+						<Route path="/" exact component={About} />
+						<Route path="/cv" exact component={CV} />
+						<Redirect from="*" to="/" />
 					</div>
 				</div>
 				<Footer />

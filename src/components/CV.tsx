@@ -1,7 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import styled from "styled-components";
-import "../styles/Resume.scss";
+import "../styles/CV.scss";
 
 const StyledA = styled.a`
 	color: inherit;
@@ -10,7 +10,7 @@ const StyledA = styled.a`
 	}
 `;
 
-const Resume = () => {
+const CV = () => {
 	return (
 		<div>
 			<Helmet>
@@ -200,4 +200,4 @@ const Resume = () => {
 	);
 };
 
-export default Resume;
+export default CV;

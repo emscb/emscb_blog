@@ -54,7 +54,12 @@ const Menu = () => {
 		<div>
 			<MenuBlock>
 				{menus.map((m, idx) => (
-					<MenuItem key={`menu ${idx}`} activeClassName="active" to={m.path}>
+					<MenuItem
+						key={`menu ${idx}`}
+						activeClassName="active"
+						exact
+						to={m.path}
+					>
 						{m.title}
 					</MenuItem>
 				))}
