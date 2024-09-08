@@ -2,7 +2,7 @@ name: build-deploy
 
 on:
   push:
-    branches: [ master ]
+    branches: [master]
 
 jobs:
   build:
@@ -31,4 +31,4 @@ jobs:
           github_token: ${{secrets.GH_PAT}}
           publish_branch: gh-pages
           publish_dir: ./build
-          full_commit_message: Updates
+          full_commit_message: Update page
