@@ -2,11 +2,8 @@ import "./App.scss";
 import { Route } from "react-router";
 import About from "./components/About";
 import Footer from "./components/Footer";
-import Home from "./components/Home";
 import Menu from "./components/Menu";
 import Resume from "./components/Resume";
-import Projects from "./components/Projects";
-import Project from "./components/projects/Project";
 
 function App() {
 	return (
@@ -23,11 +20,8 @@ function App() {
 				<div style={{ flex: "1" }}>
 					<Menu />
 					<div className="container">
-						<Route path="/" exact component={Home}/>
-						<Route path="/about" exact component={About}/>
 						<Route path="/cv" exact component={Resume} />
-						<Route path="/project" exact component={Projects}/>
-						<Route path="/project/:projectName" component={Project}/>
+						<Route path="*" exact component={About} />
 					</div>
 				</div>
 				<Footer />

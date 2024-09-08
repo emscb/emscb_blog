@@ -86,7 +86,10 @@ const Resume = () => {
 				만들었습니다. 누적 데이터는 Python으로 sqlite3 DB에 쌓고 있습니다. 그 중
 				홈페이지에 필요한 데이터는 MongoDB에 동기화됩니다.
 			</p>
-			<p>GitHub pages로 배포하고 있으나, CORS 문제가 있어 EC2를 이용해 해결 중입니다.</p>
+			<p>
+				GitHub pages로 배포하고 있으나, CORS 문제가 있어 EC2를 이용해 해결
+				중입니다.
+			</p>
 			{/* 해결을 하고 빼버리자 */}
 			<ul>
 				<li>

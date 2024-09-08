@@ -2,10 +2,12 @@ import React from "react";
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 
-const menus = [
-	{ name: "about", text: "About" },
-	{ name: "cv", text: "CV" },
-	// { name: "project", text: "Project" },
+const menus: {
+	title: string;
+	path: string;
+}[] = [
+	{ title: "About", path: "" },
+	{ title: "CV", path: "/cv" },
 ];
 
 const MenuBlock = styled.div`
@@ -51,14 +53,9 @@ const Menu = () => {
 	return (
 		<div>
 			<MenuBlock>
-				{menus.map(m => (
-					<MenuItem
-						key={m.name}
-						activeClassName="active"
-						exact={m.name === "home"}
-						to={m.name === "home" ? "/" : `/${m.name}`}
-					>
-						{m.text}
+				{menus.map((m, idx) => (
+					<MenuItem key={`menu ${idx}`} activeClassName="active" to={m.path}>
+						{m.title}
 					</MenuItem>
 				))}
 			</MenuBlock>
