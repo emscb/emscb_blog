@@ -10,7 +10,7 @@ const ImageContainer = ({ src, caption }: Props) => {
 	return (
 		<Container>
 			<a href={src} target="_blank" rel="noreferrer">
-				<img src={src} alt="image" />
+				<img src={src} alt={src.split("/").reverse()[0]} />
 			</a>
 			{caption && <div>{caption}</div>}
 		</Container>
