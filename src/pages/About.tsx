@@ -10,8 +10,8 @@ const About = () => {
 			<p>Contact: khmzxc6622@gmail.com</p>
 			<br />
 			<p>
-				스타트업에서 4년 차 개발자로 비지니스와 웹 서비스 개발, 배포, 운영을
-				했습니다. Python으로 domain-driven design, MSA 기반의 백엔드 비지니스
+				스타트업에서 4년 차 개발자로 비즈니스와 웹 서비스 개발, 배포, 운영을
+				했습니다. Python으로 domain-driven design, MSA 기반의 백엔드 비즈니스
 				설계, 개발을 했고, React로 사내 어드민 페이지와 B2B 페이지를 기획,
 				개발했습니다. AWS 아키텍처 설계와 운영 관리를 했습니다.
 			</p>
