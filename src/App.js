@@ -1,9 +1,9 @@
 import "./App.scss";
 import { Route, Redirect } from "react-router";
-import About from "./components/About";
 import Footer from "./components/Footer";
 import Menu from "./components/Menu";
-import CV from "./components/CV";
+import About from "./pages/About";
+import CV from "./pages/CV";
 
 function App() {
 	return (

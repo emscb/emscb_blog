@@ -1,14 +1,40 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
 
 .container {
 	width: 45vw;
 	margin: 3rem auto;
 	display: flex;
-  align-items: center;
-  
-  @media screen and (max-width: 768px) {
-    width: 85vw;
-    margin: 1rem auto;
-  }
+	align-items: center;
+
+	@media screen and (max-width: 768px) {
+		width: 85vw;
+		margin: 1rem auto;
+	}
+}
+
+h2 {
+	margin-top: 3rem;
+	border-bottom: 1px solid #a7a4a9;
+
+	@media screen and (max-width: 768px) {
+		margin-top: 2rem;
+	}
+}
+
+h3 {
+	margin-top: 2.5rem;
+	font-size: 1.25rem;
+}
+
+h4 {
+	margin-bottom: 12px;
+}
+
+h5 {
+	margin-bottom: 0.25rem;
+}
+
+ul {
+	margin-inline-start: -12px;
 }

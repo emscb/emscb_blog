@@ -30,7 +30,7 @@ const Footer = () => {
 				Facebook
 			</SNSLink>
 			<SNSLink href="https://github.com/emscb" target="_blank">
-				Github
+				GitHub
 			</SNSLink>
 		</FooterBlock>
 	);

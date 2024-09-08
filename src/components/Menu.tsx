@@ -14,7 +14,7 @@ const MenuBlock = styled.div`
 	display: flex;
 	padding: 1.17vw;
 	justify-content: flex-start;
-	width: 55vw;
+	width: 55%;
 	margin: 0 auto;
 	@media screen and (max-width: 768px) {
 		width: 85%;
