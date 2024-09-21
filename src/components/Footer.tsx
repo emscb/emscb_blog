@@ -26,12 +26,7 @@ const SNSLink = styled.a`
 const Footer = () => {
 	return (
 		<FooterBlock>
-			<SNSLink href="https://www.facebook.com/khmzxc/" target="_blank">
-				Facebook
-			</SNSLink>
-			<SNSLink href="https://github.com/emscb" target="_blank">
-				GitHub
-			</SNSLink>
+			<SNSLink href="mailto:khmzxc6622@gmail.com">Email</SNSLink>
 		</FooterBlock>
 	);
 };

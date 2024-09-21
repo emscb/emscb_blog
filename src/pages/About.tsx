@@ -20,6 +20,20 @@ const About = () => {
 				소통에 적극적이었고, 협업을 통해 더 나은 방향으로 이끄는데 힘썼습니다.
 			</p>
 
+			<h2>기술</h2>
+			<ul>
+				<li>Backend: Python, asyncio, SQLAlchemy, aiohttp, aio-pika</li>
+				<li>
+					Frontend: JavaScript, TypeScript, React, Redux, Redux-Saga, HTML/CSS
+				</li>
+				<li>Database: MySQL, AWS DynamoDB</li>
+				<li>
+					AWS: EC2, ECS, Lambda, Cognito, API Gateway, RDS, DynamoDB, Amazon MQ,
+					SQS, Cloudfront
+				</li>
+				<li>Terraform, Git</li>
+			</ul>
+
 			<h2>경력</h2>
 			<ExprCompany>저스트큐</ExprCompany>
 			<Caption>이커머스 스타트업</Caption>
@@ -61,20 +75,6 @@ const About = () => {
 					</ul>
 				</section>
 			</Experience>
-
-			<h2>기술</h2>
-			<ul>
-				<li>Backend: Python, asyncio, SQLAlchemy, aiohttp, aio-pika</li>
-				<li>
-					Frontend: JavaScript, TypeScript, React, Redux, Redux-Saga, HTML/CSS
-				</li>
-				<li>Database: MySQL, AWS DynamoDB</li>
-				<li>
-					AWS: EC2, ECS, Lambda, Cognito, API Gateway, RDS, DynamoDB, Amazon MQ,
-					SQS, Cloudfront
-				</li>
-				<li>Terraform, Git</li>
-			</ul>
 
 			<h2>기타 활동</h2>
 			<h5>2018.11 - 현재</h5>
