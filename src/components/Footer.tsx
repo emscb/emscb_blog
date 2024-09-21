@@ -4,7 +4,7 @@ import styled from "styled-components";
 const FooterBlock = styled.div`
 	display: flex;
 	justify-content: flex-end;
-	padding: 1.17vw;
+	padding: 1rem;
 	width: 55vw;
 	margin: 0 auto;
 	border-top: 1px double #000;
