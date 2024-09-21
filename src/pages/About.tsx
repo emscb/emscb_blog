@@ -141,6 +141,17 @@ const Experience = styled.div`
 	& > section:last-of-type {
 		width: 70%;
 	}
+
+	@media screen and (max-width: 768px) {
+		display: block;
+
+		& > section:first-of-type {
+			width: 100%;
+		}
+		& > section:last-of-type {
+			width: 100%;
+		}
+	}
 `;
 
 const CVLink = styled.div`
@@ -150,7 +161,7 @@ const CVLink = styled.div`
 	justify-content: center;
 	align-items: center;
 	padding: 0.75rem 0;
-	margin-top: 1vh;
+	margin-top: 1rem;
 
 	& > a {
 		text-decoration: none;
