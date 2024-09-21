@@ -1,5 +1,8 @@
+import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Helmet } from "react-helmet";
+import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 
 const About = () => {
@@ -7,7 +10,17 @@ const About = () => {
 		<div>
 			<Helmet title="emscb | About" />
 			<h1>권혁민</h1>
-			<p>Contact: khmzxc6622@gmail.com</p>
+			<p>
+				Contact:{" "}
+				<a
+					href="mailto:khmzxc6622@gmail.com"
+					style={{
+						color: "inherit",
+					}}
+				>
+					khmzxc6622@gmail.com
+				</a>
+			</p>
 			<br />
 			<p>
 				스타트업에서 4년 차 개발자로 비즈니스와 웹 서비스 개발, 배포, 운영을
@@ -24,7 +37,7 @@ const About = () => {
 			<ul>
 				<li>Backend: Python, asyncio, SQLAlchemy, aiohttp, aio-pika</li>
 				<li>
-					Frontend: JavaScript, TypeScript, React, Redux, Redux-Saga, HTML/CSS
+					Frontend: JavaScript, TypeScript, React, Redux, Redux-Saga, HTML/SCSS
 				</li>
 				<li>Database: MySQL, AWS DynamoDB</li>
 				<li>
@@ -75,6 +88,17 @@ const About = () => {
 					</ul>
 				</section>
 			</Experience>
+			<CVLink>
+				<NavLink
+					to="/cv"
+					onClick={() => {
+						window.scrollTo({ top: 0 });
+					}}
+				>
+					경력기술서 보기
+					<FontAwesomeIcon icon={faMagnifyingGlass} />
+				</NavLink>
+			</CVLink>
 
 			<h2>기타 활동</h2>
 			<h5>2018.11 - 현재</h5>
@@ -116,5 +140,25 @@ const Experience = styled.div`
 	}
 	& > section:last-of-type {
 		width: 70%;
+	}
+`;
+
+const CVLink = styled.div`
+	border-top: 1px dashed #a7a4a9;
+	border-bottom: 1px dashed #a7a4a9;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0.75rem 0;
+	margin-top: 1vh;
+
+	& > a {
+		text-decoration: none;
+		color: inherit;
+
+		& > svg {
+			font-size: 0.85rem;
+			margin-left: 0.25rem;
+		}
 	}
 `;
