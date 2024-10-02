@@ -16,10 +16,15 @@ const MenuBlock = styled.div`
 	justify-content: flex-start;
 	width: 55%;
 	margin: 0 auto;
+
 	@media screen and (max-width: 768px) {
 		width: 85%;
 		overflow-x: auto;
 		margin: 2vh auto;
+	}
+
+	@media print {
+		display: none;
 	}
 `;
 

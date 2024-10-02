@@ -168,4 +168,8 @@ const CVLink = styled.div`
 			margin-left: 0.25rem;
 		}
 	}
+
+	@media print {
+		display: none;
+	}
 `;

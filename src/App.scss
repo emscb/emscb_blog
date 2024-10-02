@@ -11,6 +11,11 @@
 		width: 85vw;
 		margin: 1rem auto;
 	}
+
+	@media print {
+		width: 90vw;
+		margin: 1rem 0;
+	}
 }
 
 h2 {

@@ -13,6 +13,10 @@ const FooterBlock = styled.div`
 		width: 85vw;
 		margin-bottom: 3rem;
 	}
+
+	@media print {
+		display: none;
+	}
 `;
 
 const SNSLink = styled.a`
