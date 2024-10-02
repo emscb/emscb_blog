@@ -23,28 +23,24 @@ const About = () => {
 			</p>
 			<br />
 			<p>
-				스타트업에서 4년 차 개발자로 비즈니스와 웹 서비스 개발, 배포, 운영을
-				했습니다. Python으로 domain-driven design, MSA 기반의 백엔드 비즈니스
+				4년 차 개발자. Python으로 개발 및 PO, PM 역할을 했고, 웹 서비스 개발,
+				배포, 운영을 했습니다. Domain-driven design, MSA 기반의 백엔드 비즈니스
 				설계, 개발을 했고, React로 사내 어드민 페이지와 B2B 페이지를 기획,
 				개발했습니다. AWS 아키텍처 설계와 운영 관리를 했습니다.
-			</p>
-			<p>
-				혼자가 아니라 같이 일하는 것을 좋아합니다. 다양한 직무의 사람들과의
-				소통에 적극적이었고, 협업을 통해 더 나은 방향으로 이끄는데 힘썼습니다.
 			</p>
 
 			<h2>기술</h2>
 			<ul>
-				<li>Backend: Python, asyncio, SQLAlchemy, aiohttp, aio-pika</li>
 				<li>
-					Frontend: JavaScript, TypeScript, React, Redux, Redux-Saga, HTML/SCSS
+					Backend: Python으로 aiohttp 기반 자체 framework 작성, SQLAlchemy,
+					asyncio, aio-pika
 				</li>
-				<li>Database: MySQL, AWS DynamoDB</li>
+				<li>Frontend: React 기반의 admin 사이트, B2B 사이트 개발</li>
 				<li>
-					AWS: EC2, ECS, Lambda, Cognito, API Gateway, RDS, DynamoDB, Amazon MQ,
-					SQS, Cloudfront
+					Infra: AWS ECS, Lambda로 MSA 구축, Terraform으로 AWS 자원 형상 관리,
+					AWS RDS, DynamoDB를 이용한 CQRS 패턴
 				</li>
-				<li>Terraform, Git</li>
+				<li>CI-CD: Jenkins</li>
 			</ul>
 
 			<h2>경력</h2>
