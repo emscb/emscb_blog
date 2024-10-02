@@ -36,11 +36,11 @@ const About = () => {
 					asyncio, aio-pika
 				</li>
 				<li>Frontend: React 기반의 admin 사이트, B2B 사이트 개발</li>
+				<li>CI-CD: Jenkins를 이용하여 통합 테스트 및 AWS 인프라로 자동 배포</li>
 				<li>
 					Infra: AWS ECS, Lambda로 MSA 구축, Terraform으로 AWS 자원 형상 관리,
 					AWS RDS, DynamoDB를 이용한 CQRS 패턴
 				</li>
-				<li>CI-CD: Jenkins</li>
 			</ul>
 
 			<h2>경력</h2>
