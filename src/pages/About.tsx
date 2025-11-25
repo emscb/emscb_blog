@@ -20,6 +20,7 @@ const About = () => {
 				>
 					khmzxc6622@gmail.com
 				</a>
+				<br />
 				GitHub:{" "}
 				<a
 					href="https://github.com/emscb"
