@@ -31,6 +31,7 @@ const Footer = () => {
 	return (
 		<FooterBlock>
 			<SNSLink href="mailto:khmzxc6622@gmail.com">Email</SNSLink>
+			<SNSLink href="https://github.com/emscb" target="_blank" rel="noopener noreferrer">GitHub</SNSLink>
 		</FooterBlock>
 	);
 };
